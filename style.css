@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --cyan-clr: hsl(179, 62%, 43%);
+  --lighter-cyan-clr: hsl(179, 62%, 47%);
+  --bright-yellow-clr: hsl(71, 73%, 54%);
+  --light-gray-clr: hsl(204, 43%, 93%);
+  --dark-gray-clr: hsl(213, 20%, 82%);
+  --grayish-blue-clr: hsl(218, 22%, 67%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--light-gray-clr);
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.container {
+  max-width: 650px;
+  padding: 1rem;
+}
+.top {
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.top h1 {
+  color: var(--cyan-clr);
+}
+
+.top h4 {
+  color: var(--bright-yellow-clr);
+}
+
+.top p {
+  color: var(--grayish-blue-clr);
+}
+
+.bottom {
+  display: flex;
+}
+
+.left {
+  padding: 24px;
+  background-color: var(--cyan-clr);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: var(--light-gray-clr);
+  gap: 16px;
+}
+
+.left .per-month {
+  color: var(--dark-gray-clr);
+  font-size: 16px;
+}
+
+.left .dollar {
+  font-size: 32px;
+}
+
+button {
+  background-color: var(--bright-yellow-clr);
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.right {
+  flex: 1;
+  background: var(--lighter-cyan-clr);
+  color: var(--light-gray-clr);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.right p {
+  color: var(--dark-gray-clr);
+}
