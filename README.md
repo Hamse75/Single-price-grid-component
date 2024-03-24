@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-ehxFyKzo2g)
+- Live Site URL: [live site URL](https://single-price-grid-component-ruby-eight.vercel.app/)
 
 ## My process
 
